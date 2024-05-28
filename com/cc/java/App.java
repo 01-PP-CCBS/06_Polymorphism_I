@@ -14,30 +14,16 @@ public class App {
         
     }
 
-    private static void pollObj(Queen obj){
+    private static void pollObj(HoneyBee obj){
         output(obj.doYourJob());
         output(obj.fly());
         output("-----------------");
     }
-        //overloading Besipiel
-    private static void pollObj(Worker obj){
-        output(obj.doYourJob());
-        output(obj.fly());
-        output("-----------------");
-    }    
-        //overloading Besipiel
-    private static void pollObj(Drone obj){
-        output(obj.doYourJob());
-        output(obj.fly());
-        output("-----------------");
-    }        
-   
+
+
     private static void output(String outputStr) {
         System.out.println(outputStr);
     }
-
-
-
 
 }
 
